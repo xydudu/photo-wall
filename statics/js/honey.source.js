@@ -20,7 +20,7 @@ var PROJECT = 'photo-wall',
     DEV = false,
     COMBO = false,
     COMBOURL = 'http://photowall.cnodejs.net/combo/',
-    ROOT = 'http://photowall.cnodejs.net/';
+    ROOT = 'http://photowall.cnodejs.net/js/';
 
 (function( doc, undef ) {
     
