@@ -2,7 +2,7 @@
 html
   head
     link(href="/css/style.css", rel="stylesheet")
-    script( src="/js/honey.js" )
+    script( src="/js/honey.source.js" )
   body
     h1 My Photo Wall <a href="http://xydudu.com" >@xydudu</a>
     #loading loading...
@@ -10,7 +10,7 @@ html
       script( id="tmpl-item", type="text/template")
         | <div class="item">
         | <a href="#/view/<%= id %>" >
-        |   <img src="<%= src %>"  />
+        |   <img src="/api/img/<%= src %>"  />
         | </a>
         | </div>
         | <p><%= intro %></p>

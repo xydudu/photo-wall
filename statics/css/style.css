@@ -853,7 +853,7 @@ h1, #loading, #container {
     width: 832px;
 }
 #container>.item, 
-#container>p {
+#container p {
     text-align: center;
     color: #666;
     font-size: 11px;

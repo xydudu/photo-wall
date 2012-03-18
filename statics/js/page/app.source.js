@@ -49,7 +49,7 @@ honey.def( function( H ) {
             img.onerror = function() {
                 that.trigger( 'imgerr' );
             }
-            img.src = this.get( 'src' );
+            img.src = '/api/img/'+ this.get( 'src' );
         },
         urlRoot: "/api/view"
     });
