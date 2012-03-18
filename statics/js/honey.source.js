@@ -17,10 +17,10 @@
 
 var PROJECT = 'photo-wall',
     VERSION = '20120311',
-    DEV = true,
+    DEV = false,
     COMBO = false,
-    COMBOURL = 'http://localhost:8888/',
-    ROOT = 'http://localhost:8888/js/';
+    COMBOURL = 'http://photowall.cnodejs.net/combo/',
+    ROOT = 'http://photowall.cnodejs.net/';
 
 (function( doc, undef ) {
     
