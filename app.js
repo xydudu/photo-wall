@@ -43,7 +43,7 @@
     info.src = info.src.replace('metal', 'wood');
     return res.send(info);
   });
-  app.get('/*', function(req, res) {
+  app.get('/', function(req, res) {
     return res.render('index', {
       layout: false
     });

@@ -43,7 +43,7 @@ app.get '/api/view/:key', ( req, res )->
     info.src = info.src.replace 'metal', 'wood'
     res.send info
     
-app.get '/*', ( req, res )->
+app.get '/', ( req, res )->
     res.render 'index', layout: false
 
 app.listen '8888'
