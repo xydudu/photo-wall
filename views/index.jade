@@ -1,0 +1,22 @@
+!!!5
+html
+  head
+    link(href="/css/style.css", rel="stylesheet")
+    script( src="/js/honey.js" )
+  body
+    h1 My Photo Wall <a href="http://xydudu.com" >@xydudu</a>
+    #loading loading...
+    #container
+      script( id="tmpl-item", type="text/template")
+        | <div class="item">
+        | <a href="#/view/<%= id %>" >
+        |   <img src="<%= src %>"  />
+        | </a>
+        | </div>
+        | <p><%= intro %></p>
+    
+
+    script
+      honey.go('lib_jquery, lib_underscore, lib_backbone, lib_isotope, page_app', function() {
+        honey.app();
+      });

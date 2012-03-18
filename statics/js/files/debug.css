@@ -1,0 +1,32 @@
+#honey-debug {
+    font-size: 12px;
+    width: 300px;
+    height: 250px;
+    overflow: auto;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 9999;
+    border: 1px gray solid;
+    background-color: #fff;
+
+}
+
+#honey-debug-head {
+    height: 20px;
+    background-color: gray;
+    text-align: right;
+    font-size: 15px;
+}
+#honey-debug-close {
+    color: #fff;
+    padding-right: 10px:
+    text-decoration: none;
+}
+
+#honey-debug p {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #efefef;
+    padding: 2px;
+}
